@@ -58,8 +58,24 @@ Plots how PageRank scores converge over iterations for each node.
 ### Example 1: Complex Graph
 A more intricate network with multiple paths and cycles, showing how PageRank distributes importance across interconnected nodes.
 
+![Complex Graph PageRank](pagerank_complex.png)
+
+**Convergence over iterations:**
+
+![Complex Graph Convergence](convergence_complex.png)
+
 ### Example 2: Disconnected Components
 Demonstrates how the damping factor allows PageRank to distribute scores even to isolated components that have no direct connections to other parts of the graph.
+
+![Disconnected Components PageRank](pagerank_disconnected.png)
+
+**Convergence over iterations:**
+
+![Disconnected Components Convergence](convergence_disconnected.png)
+
+## Comparison
+
+![PageRank Comparison](pagerank_comparison.png)
 
 ## Output Files
 
